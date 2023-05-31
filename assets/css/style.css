@@ -4,3 +4,19 @@
     height: 10vh;
     top: 0.5vh;
 }
+.text-box{
+    height: auto;
+    width: 30vw;
+    margin-left:5vw;
+}
+#more {
+    display: none;
+}
+#map {
+    margin: 5vw;
+    width: 30vw;
+}
+#map .imgs {
+    height: 40vh;
+    width: 30vw;
+}
