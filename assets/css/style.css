@@ -22,9 +22,8 @@
 }
 .bied {
     position: absolute;
-    height: 104vh;
+    height: 100%;
     width: 40vw;
-    border: solid 1px black;
     left: 50vw;
     top: 79vh;
 }
