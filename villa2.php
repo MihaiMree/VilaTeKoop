@@ -7,120 +7,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wijtvliet 10</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Villa Sales</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Villa Sales</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#villas">Villas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#villas">Villas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-    </nav>
-
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="display-4 m-5 " height="450vw" width="93.5%" src="assets/img/villa2-2.jpg"
-                    alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-3.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-                <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-4.jpg" alt="Third slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
+</nav>
 
-    <div class="text-box">
-        <h1>Wijtvliet 10</h1>
-        <ul class="kenmerken-highlighted__list fd-flex fd-list--none fd-p-none">
-            <li class="fd-m-right-s fd-m-right-xl--bp-m fd-flex fd-align-items-center"><span title="wonen"
-                    data-test-kenmerken-highlighted-icon="" class="fd-color-dark-3 fd-m-right-2xs"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img"
-                        viewBox="0 0 48 48">
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="display-4 m-5 " height="450vw" width="93.5%" src="assets/img/villa2-2.jpg"
+                 alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-3.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-4.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="text-box">
+    <h1>Wijtvliet 10</h1>
+    <ul class="kenmerken-highlighted__list fd-flex fd-list--none fd-p-none">
+        <li class="fd-m-right-s fd-m-right-xl--bp-m fd-flex fd-align-items-center"><span title="wonen"
+                                                                                         data-test-kenmerken-highlighted-icon="" class="fd-color-dark-3 fd-m-right-2xs"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img"
+                    viewBox="0 0 48 48">
                         <path
                             d="M38.5 32.25v-16.5a5 5 0 10-6.25-6.25h-16.5a5 5 0 10-6.25 6.25v16.5a5 5 0 106.25 6.25h16.5a5 5 0 106.25-6.25zm-6.25 3.25h-16.5a5 5 0 00-3.25-3.25v-16.5a5 5 0 003.25-3.25h16.5a5 5 0 003.25 3.25v16.5a5 5 0 00-3.25 3.25zM37 9a2 2 0 11-2 2 2 2 0 012-2zM11 9a2 2 0 11-2 2 2 2 0 012-2zm0 30a2 2 0 112-2 2 2 0 01-2 2zm26 0a2 2 0 112-2 2 2 0 01-2 2z">
                         </path>
                     </svg></span> <span data-test-kenmerken-highlighted-value=""
-                    class="kenmerken-highlighted__value fd-text--nowrap">180 m²</span> <span
-                    data-test-kenmerken-highlighted-description=""
-                    class="fd-color-dark-2 fd-m-left-2xs fd-completely-hidden fd-display-inline-block--bp-m">wonen</span>
-            </li>
-            <li class="fd-m-right-s fd-m-right-xl--bp-m fd-flex fd-align-items-center"><span title="perceel"
-                    data-test-kenmerken-highlighted-icon="" class="fd-color-dark-3 fd-m-right-2xs"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img"
-                        viewBox="0 0 48 48">
+                                        class="kenmerken-highlighted__value fd-text--nowrap">180 m²</span> <span
+                data-test-kenmerken-highlighted-description=""
+                class="fd-color-dark-2 fd-m-left-2xs fd-completely-hidden fd-display-inline-block--bp-m">wonen</span>
+        </li>
+        <li class="fd-m-right-s fd-m-right-xl--bp-m fd-flex fd-align-items-center"><span title="perceel"
+                                                                                         data-test-kenmerken-highlighted-icon="" class="fd-color-dark-3 fd-m-right-2xs"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" role="img"
+                    viewBox="0 0 48 48">
                         <path
                             d="M43 5.5A1.5 1.5 0 0041.5 4h-35A1.5 1.5 0 005 5.5v37A1.5 1.5 0 006.5 44h35a1.5 1.5 0 001.5-1.5zm-35 9h13v5a1.5 1.5 0 001.5 1.5H30v20H8zm25 5a1.5 1.5 0 00-1.5-1.5H24v-5a1.5 1.5 0 00-1.5-1.5H8V7h32v34h-7z">
                         </path>
                     </svg></span> <span data-test-kenmerken-highlighted-value=""
-                    class="kenmerken-highlighted__value fd-text--nowrap">196 m²</span> <span
-                    data-test-kenmerken-highlighted-description=""
-                    class="fd-color-dark-2 fd-m-left-2xs fd-completely-hidden fd-display-inline-block--bp-m">perceel</span>
-            </li>
-            <li class="fd-flex fd-align-items-center"><span title="slaapkamers" data-test-kenmerken-highlighted-icon=""
-                    class="fd-color-dark-3 fd-m-right-2xs"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                        height="24" fill="currentColor" role="img" viewBox="0 0 48 48">
+                                        class="kenmerken-highlighted__value fd-text--nowrap">196 m²</span> <span
+                data-test-kenmerken-highlighted-description=""
+                class="fd-color-dark-2 fd-m-left-2xs fd-completely-hidden fd-display-inline-block--bp-m">perceel</span>
+        </li>
+        <li class="fd-flex fd-align-items-center"><span title="slaapkamers" data-test-kenmerken-highlighted-icon=""
+                                                        class="fd-color-dark-3 fd-m-right-2xs"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                                                    height="24" fill="currentColor" role="img" viewBox="0 0 48 48">
                         <path
                             d="M11 20l-3.999 5.999h33.998L37 20h3l3.999 5.999L44 26v9.5a1.5 1.5 0 01-1.5 1.5H39v1.5a1.5 1.5 0 01-3 0V37H12v1.5a1.5 1.5 0 01-3 0V37H5.5A1.5 1.5 0 014 35.5V26l.001-.001L8 20h3zm30 9H7v5h34v-5zM38.5 8A1.5 1.5 0 0140 9.5V20l-9-.001V21.5a1.5 1.5 0 01-1.5 1.5h-11a1.5 1.5 0 01-1.5-1.5v-1.501L8 20V9.5A1.5 1.5 0 019.5 8h29zM28 17h-8v3h8v-3zm9-6H11v5.999h6V15.5a1.5 1.5 0 011.5-1.5h11a1.5 1.5 0 011.5 1.5v1.499h6V11z">
                         </path>
                     </svg></span> <span data-test-kenmerken-highlighted-value=""
-                    class="kenmerken-highlighted__value fd-text--nowrap">4</span> <span
-                    data-test-kenmerken-highlighted-description=""
-                    class="fd-color-dark-2 fd-m-left-2xs fd-completely-hidden fd-display-inline-block--bp-m">slaapkamers</span>
-            </li>
-        </ul>
-        <strong class="prijs">
-            € 815.000 k.k.
-        </strong>
-        <h2>Omschrijving</h2>
-        <p>PRACHTIGE TWEE-ONDER-EEN-KAPWONING IN DE STIJL VAN EEN OUD HERENHUIS MET EEN ZEER HOOGWAARDIGE AFWERKING EN
-            EEN KANTOOR/PRAKTIJKRUIMTE AAN HUIS!
+                                        class="kenmerken-highlighted__value fd-text--nowrap">4</span> <span
+                data-test-kenmerken-highlighted-description=""
+                class="fd-color-dark-2 fd-m-left-2xs fd-completely-hidden fd-display-inline-block--bp-m">slaapkamers</span>
+        </li>
+    </ul>
+    <strong class="prijs">
+        € 815.000 k.k.
+    </strong>
+    <h2>Omschrijving</h2>
+    <p>PRACHTIGE TWEE-ONDER-EEN-KAPWONING IN DE STIJL VAN EEN OUD HERENHUIS MET EEN ZEER HOOGWAARDIGE AFWERKING EN
+        EEN KANTOOR/PRAKTIJKRUIMTE AAN HUIS!
 
-            De sfeer van een Frans kasteel, maar dan gewoon in een Nederlands huis! Deze charmante halfvrijstaande
-            woning biedt een geweldige kans voor wie op zoek is naar een huis met de allure van toen en het comfort van
-            nu. Gebouwd in 2004 en voorzien van energielabel A<span id="dots">...</span><span id="more">, is deze woning
+        De sfeer van een Frans kasteel, maar dan gewoon in een Nederlands huis! Deze charmante halfvrijstaande
+        woning biedt een geweldige kans voor wie op zoek is naar een huis met de allure van toen en het comfort van
+        nu. Gebouwd in 2004 en voorzien van energielabel A<span id="dots">...</span><span id="more">, is deze woning
                 helemaal klaar voor een duurzame toekomst, maar qua uitstraling ademt ze de sfeer van vroegere tijden en
                 je favoriete zuidelijke vakantiebestemming. Dit mediterrane gevoel is doorgetrokken tot in de zonnige
                 tuin die gericht is op het zuidwesten.
@@ -207,27 +207,27 @@
                 • Fijne uitvalsbasis ten opzichte van de uitvalswegen en grote steden
                 • Energielabel: A
                 • Volledige eigendom</span></p>
-        <button onclick="myFunction()" id="myBtn">Lees meer</button>
-    </div>
-    <div class="bied">
-        <h1>PHP bied voor vrijdag
-        </h1>
-    </div>
-    <div id="map">
-        <a href="https://www.google.com/maps/place/Wijtvliet+10,+2134+WD+Hoofddorp/@52.3074824,4.6323044,100m/data=!3m1!1e3!4m6!3m5!1s0x47c5e864aed03af3:0x2f4da920e7514e00!8m2!3d52.3075782!4d4.6322571!16s%2Fg%2F11c5m4rm7p?entry=ttu"
-            target="_blank">
-            <img class="imgs" src="assets/img/villa-map-2.png" alt="">
-        </a>
+    <button onclick="myFunction()" id="myBtn">Lees meer</button>
+</div>
+<div class="bied">
+    <h1>PHP bied voor vrijdag
+    </h1>
+</div>
+<div id="map">
+    <a href="https://www.google.com/maps/place/Wijtvliet+10,+2134+WD+Hoofddorp/@52.3074824,4.6323044,100m/data=!3m1!1e3!4m6!3m5!1s0x47c5e864aed03af3:0x2f4da920e7514e00!8m2!3d52.3075782!4d4.6322571!16s%2Fg%2F11c5m4rm7p?entry=ttu"
+       target="_blank">
+        <img class="imgs" src="assets/img/villa-map-2.png" alt="">
+    </a>
+</div>
+
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p>&copy; 2023 Villa Sales. All rights reserved.</p>
     </div>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2023 Villa Sales. All rights reserved.</p>
-        </div>
-
-    </footer>
-    <script src="assets/js/villa.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaJS_uxy_F3TqBUrjo7P0_2UHCue4qYGs&callback=initMap"
+</footer>
+<script src="assets/js/villa.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaJS_uxy_F3TqBUrjo7P0_2UHCue4qYGs&callback=initMap"
         async defer></script>
 </body>
 

@@ -11,5 +11,8 @@ try {
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
+$db = mysqli_select_db(villas,$conn);
+$query = mysql_query("select * from villas",$conn);
+
 
 
