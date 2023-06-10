@@ -13,3 +13,7 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+  function showPrompt(message) {
+    alert(message);
+}
+

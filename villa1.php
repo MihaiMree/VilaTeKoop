@@ -22,6 +22,7 @@ include 'assets/php/config.php';
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 
+
 </head>
 
 <body>````
@@ -176,30 +177,39 @@ include 'assets/php/config.php';
     <button onclick="myFunction()" id="myBtn">Lees meer</button>
 </div>
 <div class="bied">
-    <h2>Top bieders</h2>
-    <p>
-        <?php
-        $sql = "SELECT * FROM bod1;";
-        $result = mysqli_query($sql, $conn);
-        ?>
-    </p>
-    <p>
-        $bod2
-    </p>
-    <p>
-        $bod3
-    </p>
+    <h2>Hoogste biedingen</h2>
+    <?php
+    // Haal de hoogste 3 biedingen op uit de database
+    $stmt = $conn->query('SELECT voornaam, achternaam, bod, datum FROM biedingen ORDER BY bod DESC LIMIT 3');
+    $highestBids = $stmt->fetchAll();
 
-    <h2>Vul uw gegevens in:</h2>
-    <form>
-        <label for="naam">Naam: </label>
-        <input type="text" id="naam" name="naam"><br>
-        <label for="email">E-mail </label>
-        <input type="email" id="email" name="email"><br>
-        <label for="prijs">Bod: </label>
-        <input type="number" id="prijs" name="prijs">
+    // Toon de hoogste biedingen
+    echo '<ul>';
+    foreach ($highestBids as $bid) {
+        echo '<li>Naam: ' . $bid['voornaam'] . ' ' . $bid['achternaam'] . ', Bod: ' . $bid['bod'] . ' euro, Datum: ' . $bid['datum'] . '</li>';
+    }
+    echo '</ul>';
 
+    // Toon het totaal aantal biedingen
+    $stmt = $conn->query('SELECT COUNT(*) AS totalBids FROM biedingen');
+    $totalBids = $stmt->fetchColumn();
+    echo 'Totaal aantal biedingen: ' . $totalBids;
+    ?>
+    <h2>Plaats een bod</h2>
+    <form method="POST" action="">
+        <label for="email">E-mailadres:</label>
+        <input type="email" id="email" name="email" required><br>
 
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required><br>
+
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" id="achternaam" name="achternaam" required><br>
+
+        <label for="bod">Bod (in hele euro's):</label>
+        <input type="number" id="bod" name="bod" required><br>
+
+        <button type="submit">Plaats bod</button>
     </form>
 
 </div>

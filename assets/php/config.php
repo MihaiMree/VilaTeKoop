@@ -12,5 +12,16 @@ try {
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
+// Verwerk het ontvangen bod
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $email = $_POST['email'];
+    $voornaam = $_POST['voornaam'];
+    $achternaam = $_POST['achternaam'];
+    $bod = $_POST['bod'];
 
+    $stmt = $conn->prepare('INSERT INTO biedingen (email, voornaam, achternaam, bod, datum) VALUES (?, ?, ?, ?, NOW())');
+    $stmt->execute([$email, $voornaam, $achternaam, $bod]);
+    $message = 'Bod succesvol toegevoegd.';
+    echo "<script>showPrompt('$message');</script>";
+}
 
