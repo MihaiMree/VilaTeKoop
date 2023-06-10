@@ -1,3 +1,6 @@
+<?php
+include 'assets/php/config2.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,6 +21,7 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+
 
 </head>
 
@@ -44,8 +48,6 @@
         </div>
     </div>
 </nav>
-
-
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -71,7 +73,6 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-
 <div class="text-box">
     <h1>Wijtvliet 10</h1>
     <ul class="kenmerken-highlighted__list fd-flex fd-list--none fd-p-none">
@@ -112,7 +113,7 @@
         </li>
     </ul>
     <strong class="prijs">
-        € 815.000 k.k.
+
     </strong>
     <h2>Omschrijving</h2>
     <p>PRACHTIGE TWEE-ONDER-EEN-KAPWONING IN DE STIJL VAN EEN OUD HERENHUIS MET EEN ZEER HOOGWAARDIGE AFWERKING EN
@@ -210,6 +211,40 @@
     <button onclick="myFunction()" id="myBtn">Lees meer</button>
 </div>
 <div class="bied">
+    <h2>Hoogste biedingen</h2>
+    <?php
+    // Haal de hoogste 3 biedingen op uit de database
+    $stmt = $conn->query('SELECT voornaam2, achternaam2, bod2, datum2 FROM biedingen2 ORDER BY bod2 DESC LIMIT 3');
+    $highestBids = $stmt->fetchAll();
+
+    // Toon de hoogste biedingen
+    echo '<ul>';
+    foreach ($highestBids as $bid) {
+        echo '<li>Naam: ' . $bid['voornaam2'] . ' ' . $bid['achternaam2'] . ', Bod: ' . $bid['bod2'] . ' euro, Datum: ' . $bid['datum2'] . '</li>';
+    }
+    echo '</ul>';
+
+    // Toon het totaal aantal biedingen
+    $stmt = $conn->query('SELECT COUNT(*) AS totalBids FROM biedingen2');
+    $totalBids = $stmt->fetchColumn();
+    echo 'Totaal aantal biedingen: ' . $totalBids;
+    ?>
+    <h2>Plaats een bod</h2>
+    <form method="POST" action="">
+        <label for="email2">E-mailadres:</label>
+        <input type="email" id="email2" name="email2" required><br>
+
+        <label for="voornaam2">Voornaam:</label>
+        <input type="text" id="voornaam2" name="voornaam2" required><br>
+
+        <label for="achternaam2">Achternaam:</label>
+        <input type="text" id="achternaam2" name="achternaam2" required><br>
+
+        <label for="bod2">Bod (in hele euro's):</label>
+        <input type="number" id="bod2" name="bod2" required min="800000"><br>
+
+        <button type="submit">Plaats bod</button>
+    </form>
 </div>
 <div id="map">
     <a href="https://www.google.com/maps/place/Wijtvliet+10,+2134+WD+Hoofddorp/@52.3074824,4.6323044,100m/data=!3m1!1e3!4m6!3m5!1s0x47c5e864aed03af3:0x2f4da920e7514e00!8m2!3d52.3075782!4d4.6322571!16s%2Fg%2F11c5m4rm7p?entry=ttu"
@@ -225,6 +260,7 @@
 
 </footer>
 <script src="assets/js/villa.js"></script>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaJS_uxy_F3TqBUrjo7P0_2UHCue4qYGs&callback=initMap"
         async defer></script>
 </body>

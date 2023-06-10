@@ -1,3 +1,6 @@
+<?php
+include 'assets/php/config3.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -172,8 +175,42 @@
     <button onclick="myFunction()" id="myBtn">Lees meer</button>
 </div>
 <div class="bied">
+    <h2>Hoogste biedingen</h2>
+    <?php
+    // Haal de hoogste 3 biedingen op uit de database
+    $stmt = $conn->query('SELECT voornaam3, achternaam3, bod3, datum3 FROM biedingen3 ORDER BY bod3 DESC LIMIT 3');
+    $highestBids = $stmt->fetchAll();
 
+    // Toon de hoogste biedingen
+    echo '<ul>';
+    foreach ($highestBids as $bid) {
+        echo '<li>Naam: ' . $bid['voornaam3'] . ' ' . $bid['achternaam3'] . ', Bod: ' . $bid['bod3'] . ' euro, Datum: ' . $bid['datum3'] . '</li>';
+    }
+    echo '</ul>';
+
+    // Toon het totaal aantal biedingen
+    $stmt = $conn->query('SELECT COUNT(*) AS totalBids FROM biedingen3');
+    $totalBids = $stmt->fetchColumn();
+    echo 'Totaal aantal biedingen: ' . $totalBids;
+    ?>
+    <h2>Plaats een bod</h2>
+    <form method="POST" action="">
+        <label for="email3">E-mailadres:</label>
+        <input type="email" id="email3" name="email3" required><br>
+
+        <label for="voornaam3">Voornaam:</label>
+        <input type="text" id="voornaam3" name="voornaam3" required><br>
+
+        <label for="achternaam3">Achternaam:</label>
+        <input type="text" id="achternaam3" name="achternaam3" required><br>
+
+        <label for="bod3">Bod (in hele euro's):</label>
+        <input type="number" id="bod3" name="bod3" required min="900000"><br>
+
+        <button type="submit">Plaats bod</button>
+    </form>
 </div>
+
 <div id="map">
     <a href="https://www.google.com/maps/place/IJweg+1284,+2133+MJ+Hoofddorp/@52.2987193,4.6436019,143m/data=!3m1!1e3!4m6!3m5!1s0x47c5e8763a42d277:0xd0392a9e0465f4f0!8m2!3d52.2987407!4d4.6434826!16s%2Fg%2F11c1zgzs2x?entry=ttu"
        target="_blank">

@@ -25,7 +25,7 @@ include 'assets/php/config.php';
 
 </head>
 
-<body>````
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="#">Villa Sales</a>
@@ -118,7 +118,7 @@ include 'assets/php/config.php';
         </li>
     </ul>
     <strong class="prijs">
-        € 1.045.000 k.k.
+
     </strong>
     <h2>Omschrijving</h2>
     <p>In de aantrekkelijke wijk Vrijschot-Noord vindt u deze charmante vrijstaande villa. De woning heeft een
@@ -207,7 +207,7 @@ include 'assets/php/config.php';
         <input type="text" id="achternaam" name="achternaam" required><br>
 
         <label for="bod">Bod (in hele euro's):</label>
-        <input type="number" id="bod" name="bod" required><br>
+        <input type="number" id="bod" name="bod" required min="1000000"><br>
 
         <button type="submit">Plaats bod</button>
     </form>
@@ -227,6 +227,7 @@ include 'assets/php/config.php';
 
 </footer>
 <script src="assets/js/villa.js"></script>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaJS_uxy_F3TqBUrjo7P0_2UHCue4qYGs&callback=initMap"
         async defer></script>
 </body>
