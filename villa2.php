@@ -210,8 +210,6 @@
     <button onclick="myFunction()" id="myBtn">Lees meer</button>
 </div>
 <div class="bied">
-    <h1>PHP bied voor vrijdag
-    </h1>
 </div>
 <div id="map">
     <a href="https://www.google.com/maps/place/Wijtvliet+10,+2134+WD+Hoofddorp/@52.3074824,4.6323044,100m/data=!3m1!1e3!4m6!3m5!1s0x47c5e864aed03af3:0x2f4da920e7514e00!8m2!3d52.3075782!4d4.6322571!16s%2Fg%2F11c5m4rm7p?entry=ttu"

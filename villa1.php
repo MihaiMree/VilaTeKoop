@@ -1,3 +1,6 @@
+<?php
+include 'assets/php/config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,10 +24,7 @@
 
 </head>
 
-<body>
-<?php
-iclude_once("config.php");
-?>
+<body>````
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="#">Villa Sales</a>
@@ -178,7 +178,10 @@ iclude_once("config.php");
 <div class="bied">
     <h2>Top bieders</h2>
     <p>
-        <?$bod1?>
+        <?php
+        $sql = "SELECT * FROM bod1;";
+        $result = mysqli_query($sql, $conn);
+        ?>
     </p>
     <p>
         $bod2
