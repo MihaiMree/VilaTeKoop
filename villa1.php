@@ -53,7 +53,7 @@ include 'assets/php/config.php';
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa1-1.jpg" alt="First slide">
+            <img class="display-4 m-5" height="450vw" width="75%" src="assets/img/villa1-1.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
             <img class="display-4 m-5 " height="450vw" width="93.5%" src="assets/img/villa1-2.jpg"
