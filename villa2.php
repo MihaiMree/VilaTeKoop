@@ -36,13 +36,10 @@ include 'assets/php/config2.php';
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="homepage.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#villas">Villas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="form.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -51,17 +48,17 @@ include 'assets/php/config2.php';
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-1.jpg" alt="First slide">
+            <img class="display-4 m-5" height="650vw" width="93.5%" src="assets/img/villa2-1.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5 " height="450vw" width="93.5%" src="assets/img/villa2-2.jpg"
+            <img class="display-4 m-5 " height="650vw" width="93.5%" src="assets/img/villa2-2.jpg"
                  alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-3.jpg" alt="Third slide">
+            <img class="display-4 m-5" height="650vw" width="93.5%" src="assets/img/villa2-3.jpg" alt="Third slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa2-4.jpg" alt="Third slide">
+            <img class="display-4 m-5" height="650vw" width="93.5%" src="assets/img/villa2-4.jpg" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -74,6 +71,7 @@ include 'assets/php/config2.php';
     </a>
 </div>
 <div class="text-box">
+    <div class="alles">
     <h1>Wijtvliet 10</h1>
     <ul class="kenmerken-highlighted__list fd-flex fd-list--none fd-p-none">
         <li class="fd-m-right-s fd-m-right-xl--bp-m fd-flex fd-align-items-center"><span title="wonen"
@@ -116,99 +114,114 @@ include 'assets/php/config2.php';
 
     </strong>
     <h2>Omschrijving</h2>
-    <p>PRACHTIGE TWEE-ONDER-EEN-KAPWONING IN DE STIJL VAN EEN OUD HERENHUIS MET EEN ZEER HOOGWAARDIGE AFWERKING EN
-        EEN KANTOOR/PRAKTIJKRUIMTE AAN HUIS!
+    <div>
+        <p id="description" class="truncated-description">PRACHTIGE TWEE-ONDER-EEN-KAPWONING IN DE STIJL VAN EEN OUD HERENHUIS MET EEN ZEER HOOGWAARDIGE AFWERKING EN
+            EEN KANTOOR/PRAKTIJKRUIMTE AAN HUIS!
 
-        De sfeer van een Frans kasteel, maar dan gewoon in een Nederlands huis! Deze charmante halfvrijstaande
-        woning biedt een geweldige kans voor wie op zoek is naar een huis met de allure van toen en het comfort van
-        nu. Gebouwd in 2004 en voorzien van energielabel A<span id="dots">...</span><span id="more">, is deze woning
-                helemaal klaar voor een duurzame toekomst, maar qua uitstraling ademt ze de sfeer van vroegere tijden en
-                je favoriete zuidelijke vakantiebestemming. Dit mediterrane gevoel is doorgetrokken tot in de zonnige
-                tuin die gericht is op het zuidwesten.
+            De sfeer van een Frans kasteel, maar dan gewoon in een Nederlands huis! Deze charmante halfvrijstaande
+            woning biedt een geweldige kans voor wie op zoek is naar een huis met de allure van toen en het comfort van
+            nu. Gebouwd in 2004 en voorzien van energielabel A, is deze woning
+            helemaal klaar voor een duurzame toekomst, maar qua uitstraling ademt ze de sfeer van vroegere tijden en
+            je favoriete zuidelijke vakantiebestemming. Dit mediterrane gevoel is doorgetrokken tot in de zonnige
+            tuin die gericht is op het zuidwesten.
 
-                De grote woning is voorzien van meer dan genoeg leefruimte en in 2017 is de voormalige inpandige garage
-                verbouwd tot praktijkruimte met vloerverwarming en koud/warm water. Ideaal voor wie werkt vanuit huis!
-                Of misschien breek jij de muur tussen de keuken en praktijkruimte wel open, om zo een royale woonkeuken
-                te realiseren. Boven zijn er in totaal 4 slaapkamers aanwezig, al is de realisatie van een extra, 5e
-                slaapkamer op zolder ook heel goed mogelijk.
-                Om het perfecte plaatje helemaal compleet te maken, is de woning ook nog eens gelegen in de gewilde en
-                kindvriendelijke woonwijk Floriande, vlakbij basisscholen, speeltuinen, winkelcentra, en de uitvalswegen
-                richting de grote steden.
+            De grote woning is voorzien van meer dan genoeg leefruimte en in 2017 is de voormalige inpandige garage
+            verbouwd tot praktijkruimte met vloerverwarming en koud/warm water. Ideaal voor wie werkt vanuit huis!
+            Of misschien breek jij de muur tussen de keuken en praktijkruimte wel open, om zo een royale woonkeuken
+            te realiseren. Boven zijn er in totaal 4 slaapkamers aanwezig, al is de realisatie van een extra, 5e
+            slaapkamer op zolder ook heel goed mogelijk.
+            Om het perfecte plaatje helemaal compleet te maken, is de woning ook nog eens gelegen in de gewilde en
+            kindvriendelijke woonwijk Floriande, vlakbij basisscholen, speeltuinen, winkelcentra, en de uitvalswegen
+            richting de grote steden.
 
-                Kortom, een echte ‘one-of-a-kind’-woning in een prettige woonomgeving, die van alle gemakken is voorzien
-                om er jarenlang zorgeloos en heerlijk te wonen!
+            Kortom, een echte ‘one-of-a-kind’-woning in een prettige woonomgeving, die van alle gemakken is voorzien
+            om er jarenlang zorgeloos en heerlijk te wonen!
 
-                Over de ligging en de buurt:
-                Deze twee-onder-een-kapwoning is gelegen aan een rustige weg op eiland 2 van de populaire woonwijk
-                Floriande. Er zijn meerdere basisscholen en leuke buitenspeelplekken op loopafstand en middelbare
-                scholen bevinden zich op korte fietsafstand. Het centrum van Hoofddorp en station bevinden zich op 20
-                minuten fietsen en de dichtstbijzijnde bushalte bevindt zich op loopafstand. Met een centrale ligging
-                onder de rook van Amsterdam, nabij Haarlem en Leiden, zijn er uiteraard prima verbindingen richting de
-                grote steden met zowel het openbaar vervoer als met de auto.
+            Over de ligging en de buurt:
+            Deze twee-onder-een-kapwoning is gelegen aan een rustige weg op eiland 2 van de populaire woonwijk
+            Floriande. Er zijn meerdere basisscholen en leuke buitenspeelplekken op loopafstand en middelbare
+            scholen bevinden zich op korte fietsafstand. Het centrum van Hoofddorp en station bevinden zich op 20
+            minuten fietsen en de dichtstbijzijnde bushalte bevindt zich op loopafstand. Met een centrale ligging
+            onder de rook van Amsterdam, nabij Haarlem en Leiden, zijn er uiteraard prima verbindingen richting de
+            grote steden met zowel het openbaar vervoer als met de auto.
 
-                Wonen in Hoofddorp betekent het gemak van een centrale ligging nabij meerdere grote steden, maar ook
-                rust en ruimte nabij het groen: je woont hier vlakbij de Toolenburgerplas, recreatiegebied De
-                Boseilanden en het Haarlemmermeerse bos, Ook buiten Hoofddorp kun je heerlijk wandelen en fietsen in de
-                polder en binnen een halfuur met de auto sta je al op het strand bij Noordwijk aan zee.
+            Wonen in Hoofddorp betekent het gemak van een centrale ligging nabij meerdere grote steden, maar ook
+            rust en ruimte nabij het groen: je woont hier vlakbij de Toolenburgerplas, recreatiegebied De
+            Boseilanden en het Haarlemmermeerse bos, Ook buiten Hoofddorp kun je heerlijk wandelen en fietsen in de
+            polder en binnen een halfuur met de auto sta je al op het strand bij Noordwijk aan zee.
 
-                Indeling van de woning:
-                Begane grond:
-                Aan de voorgevel wordt meteen de toon gezet bij deze woning: de prachtige blauweregen rondom de
-                openslaande deuren naar de praktijkruimte zorgen voor een warm welkom en qua zonwering is er voor
-                stijlvolle markiezen gekozen.
-                Achter de voordeur vinden we de entreehal met garderobe, meterkast, gastentoilet met fonteintje en de
-                toegang tot de woonkamer. In de hal ligt een geblokte natuurstenen vloer (de zwarte blokken zijn van
-                Belgisch hardsteen; de witte van marmer).
+            Indeling van de woning:
+            Begane grond:
+            Aan de voorgevel wordt meteen de toon gezet bij deze woning: de prachtige blauweregen rondom de
+            openslaande deuren naar de praktijkruimte zorgen voor een warm welkom en qua zonwering is er voor
+            stijlvolle markiezen gekozen.
+            Achter de voordeur vinden we de entreehal met garderobe, meterkast, gastentoilet met fonteintje en de
+            toegang tot de woonkamer. In de hal ligt een geblokte natuurstenen vloer (de zwarte blokken zijn van
+            Belgisch hardsteen; de witte van marmer).
 
-                De lichte woonkamer is voorzien van een visgraatparketvloer (eiken) en een gesloten gas haard met
-                afstandsbediening. Openslaande terrasdeuren maken dat het binnen- en buitenleven naadloos in elkaar
-                overgaan en via een versmalling is er een passage naar de keuken. De landelijke keuken in rechte
-                opstelling heeft een belgisch hardsteen aanrechtblad en een grote schouw boven het zwarte Falcon Classic
-                gasfornuis, wat een ware eye-catcher is. Het 5-pits fornuis is voorzien van een wokbrander en tevens
-                zijn er 2 ovens en 1 grilloven. Verder zijn er in de keuken een koel-vriescombinatie en een vaatwasser
-                aanwezig en zit er in de keuken een extra achterdeur naar de tuin. Zowel de openslaande deuren als de
-                keukendeur zijn voorzien van Plissé hordeuren.
+            De lichte woonkamer is voorzien van een visgraatparketvloer (eiken) en een gesloten gas haard met
+            afstandsbediening. Openslaande terrasdeuren maken dat het binnen- en buitenleven naadloos in elkaar
+            overgaan en via een versmalling is er een passage naar de keuken. De landelijke keuken in rechte
+            opstelling heeft een belgisch hardsteen aanrechtblad en een grote schouw boven het zwarte Falcon Classic
+            gasfornuis, wat een ware eye-catcher is. Het 5-pits fornuis is voorzien van een wokbrander en tevens
+            zijn er 2 ovens en 1 grilloven. Verder zijn er in de keuken een koel-vriescombinatie en een vaatwasser
+            aanwezig en zit er in de keuken een extra achterdeur naar de tuin. Zowel de openslaande deuren als de
+            keukendeur zijn voorzien van Plissé hordeuren.
 
-                Eerste verdieping:
-                De langwerpige overloop (met dezelfde vloer als in de hal beneden) biedt toegang tot 3 slaapkamers, een
-                separaat toilet, de technische/wasruimte en de badkamer. De master bedroom heeft 2 dakkapellen aan de
-                voorkant en is voorzien van een volledig op maat gemaakte kledingmeubelkast over de gehele breedte met
-                inbouwspotjes. De luxe badkamer is voorzien van een whirlpool/jets, een douchecabine, dubbele wastafel
-                met meubel en een designradiator.
+            Eerste verdieping:
+            De langwerpige overloop (met dezelfde vloer als in de hal beneden) biedt toegang tot 3 slaapkamers, een
+            separaat toilet, de technische/wasruimte en de badkamer. De master bedroom heeft 2 dakkapellen aan de
+            voorkant en is voorzien van een volledig op maat gemaakte kledingmeubelkast over de gehele breedte met
+            inbouwspotjes. De luxe badkamer is voorzien van een whirlpool/jets, een douchecabine, dubbele wastafel
+            met meubel en een designradiator.
 
-                Tweede verdieping:
-                Via de vaste trap op de eerste verdieping, bereiken we de tweede verdieping met overloop en 4e
-                slaapkamer. Deze grote slaapkamer beschikt over 2 grote Velux dakramen en het is heel goed mogelijk om
-                deze ruimte te splitsen om zo een 5e slaapkamer of een 2e badkamer te realiseren.
+            Tweede verdieping:
+            Via de vaste trap op de eerste verdieping, bereiken we de tweede verdieping met overloop en 4e
+            slaapkamer. Deze grote slaapkamer beschikt over 2 grote Velux dakramen en het is heel goed mogelijk om
+            deze ruimte te splitsen om zo een 5e slaapkamer of een 2e badkamer te realiseren.
 
-                Praktijkruimte:
-                De praktijkruimte bevindt zich in de voormalige garage en beschikt over een eigen ingang. Aan de
-                voorzijde zijn openslaande deuren aanwezig; aan de achterzijde zit een achterdeur naar de tuin. Er is
-                vloerverwarming en een warm/koud wateraansluiting in de praktijkruimte aanwezig.
+            Praktijkruimte:
+            De praktijkruimte bevindt zich in de voormalige garage en beschikt over een eigen ingang. Aan de
+            voorzijde zijn openslaande deuren aanwezig; aan de achterzijde zit een achterdeur naar de tuin. Er is
+            vloerverwarming en een warm/koud wateraansluiting in de praktijkruimte aanwezig.
 
-                Tuin:
-                De prachtig aangelegde achtertuin is gericht op het zonnige zuidwesten en klopt qua stijl helemaal bij
-                de rest van het huis. De tuin kent een ideale balans van diverse terrassen en groene borders en tevens
-                is er een een kleine vijverpartij met waterval aanwezig, een plek waar je graag wegdroomt naar je
-                favoriete vakantiebestemming. Achterin de tuin staat een handige houten berging (betonnen fundering)
-                welke voorzien is van elektriciteit.
+            Tuin:
+            De prachtig aangelegde achtertuin is gericht op het zonnige zuidwesten en klopt qua stijl helemaal bij
+            de rest van het huis. De tuin kent een ideale balans van diverse terrassen en groene borders en tevens
+            is er een een kleine vijverpartij met waterval aanwezig, een plek waar je graag wegdroomt naar je
+            favoriete vakantiebestemming. Achterin de tuin staat een handige houten berging (betonnen fundering)
+            welke voorzien is van elektriciteit.
 
-                Parkeren:
-                Er is parkeergelegenheid rondom het huis.
+            Parkeren:
+            Er is parkeergelegenheid rondom het huis.
 
-                Kenmerken van de woning:
-                • Charmante en volledig instapklare twee-onder-een-kapwoning
-                • Zeer hoogwaardige afwerking
-                • Zonwering is voorzien door middel van markiezen in de woonkamer en keuken
-                • Elektrisch zonnescherm in de achtertuin
-                • De gehele woning is voorzien van shutters
-                • Praktijkruimte aan huis in de voormalige garage
-                • Zonnige en prachtig aangelegde achtertuin op het zuidwesten
-                • Kindvriendelijke wijk met alle voorzieningen in de directe omgeving
-                • Fijne uitvalsbasis ten opzichte van de uitvalswegen en grote steden
-                • Energielabel: A
-                • Volledige eigendom</span></p>
-    <button onclick="myFunction()" id="myBtn">Lees meer</button>
+            Kenmerken van de woning:
+            • Charmante en volledig instapklare twee-onder-een-kapwoning
+            • Zeer hoogwaardige afwerking
+            • Zonwering is voorzien door middel van markiezen in de woonkamer en keuken
+            • Elektrisch zonnescherm in de achtertuin
+            • De gehele woning is voorzien van shutters
+            • Praktijkruimte aan huis in de voormalige garage
+            • Zonnige en prachtig aangelegde achtertuin op het zuidwesten
+            • Kindvriendelijke wijk met alle voorzieningen in de directe omgeving
+            • Fijne uitvalsbasis ten opzichte van de uitvalswegen en grote steden
+            • Energielabel: A
+            • Volledige eigendom</p>
+        <button id="readMoreBtn" class="btn btn-primary">Lees meer</button>
+    </div>
+    <div id="map">
+        <a href="https://www.google.com/maps/place/Wijtvliet+10,+2134+WD+Hoofddorp/@52.3074824,4.6323044,100m/data=!3m1!1e3!4m6!3m5!1s0x47c5e864aed03af3:0x2f4da920e7514e00!8m2!3d52.3075782!4d4.6322571!16s%2Fg%2F11c5m4rm7p?entry=ttu"
+           target="_blank">
+            <img class="imgs" src="assets/img/villa-map-2.png" alt="">
+        </a>
+    </div>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Villa Sales. All rights reserved.</p>
+        </div>
+
+    </footer>
 </div>
 <div class="bied">
     <h2>Hoogste biedingen</h2>
@@ -246,19 +259,7 @@ include 'assets/php/config2.php';
         <button type="submit">Plaats bod</button>
     </form>
 </div>
-<div id="map">
-    <a href="https://www.google.com/maps/place/Wijtvliet+10,+2134+WD+Hoofddorp/@52.3074824,4.6323044,100m/data=!3m1!1e3!4m6!3m5!1s0x47c5e864aed03af3:0x2f4da920e7514e00!8m2!3d52.3075782!4d4.6322571!16s%2Fg%2F11c5m4rm7p?entry=ttu"
-       target="_blank">
-        <img class="imgs" src="assets/img/villa-map-2.png" alt="">
-    </a>
-</div>
 
-<footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-        <p>&copy; 2023 Villa Sales. All rights reserved.</p>
-    </div>
-
-</footer>
 <script src="assets/js/villa.js"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaJS_uxy_F3TqBUrjo7P0_2UHCue4qYGs&callback=initMap"

@@ -35,13 +35,10 @@ include 'assets/php/config3.php';
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="homepage.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#villas">Villas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="form.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -52,17 +49,17 @@ include 'assets/php/config3.php';
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa3-1.jpg" alt="First slide">
+            <img class="display-4 m-5" height="650vw" width="93.5%" src="assets/img/villa3-1.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5 " height="450vw" width="93.5%" src="assets/img/villa3-2.jpg"
+            <img class="display-4 m-5 " height="650vw" width="93.5%" src="assets/img/villa3-2.jpg"
                  alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa3-3.jpg" alt="Third slide">
+            <img class="display-4 m-5" height="650vw" width="93.5%" src="assets/img/villa3-3.jpg" alt="Third slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5" height="450vw" width="93.5%" src="assets/img/villa3-4.jpg" alt="Third slide">
+            <img class="display-4 m-5" height="650vw" width="93.5%" src="assets/img/villa3-4.jpg" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -76,6 +73,7 @@ include 'assets/php/config3.php';
 </div>
 
 <div class="text-box">
+    <div class="alles">
     <h1>IJweg 1284</h1>
     <ul class="kenmerken-highlighted__list fd-flex fd-list--none fd-p-none">
         <li class="fd-m-right-s fd-m-right-xl--bp-m fd-flex fd-align-items-center"><span title="wonen"
@@ -118,61 +116,78 @@ include 'assets/php/config3.php';
 
     </strong>
     <h2>Omschrijving</h2>
-    <p>Laten we bij het begin beginnen: de locatie.. Met recreatiegebied de Toolenburger plas letterlijk als
+    <p id="description" class="truncated-description">Laten we bij het begin beginnen: de locatie.. Met recreatiegebied de Toolenburger plas letterlijk als
         achtertuin een van de meest unieke, geliefde en gewilde locaties van Hoofddorp. Vanuit je eigen tuin loop je
         middels je eigen loopbrug zo het gebied in. Je kunt hier heerlijk wandelen, spelen, zwemmen, sporten, lekker
-        uiteten of gewoon genieten van de rust. Verder zijn winkelcentrum Floriande en Toolenburg<span
-            id="dots">...</span><span id="more">,  scholen, uitvalswegen en openbaar vervoer op korte afstand.
+        uiteten of gewoon genieten van de rust. Verder zijn winkelcentrum Floriande en Toolenburg,  scholen, uitvalswegen en openbaar vervoer op korte afstand.
 
-                De IJweg 1284, het huis waar iedereen die ook maar een beetje bekend is in de buurt wordt genoemd als
-                het witte huis met die mooie serre (uitbouw), staat op een perceel van circa 2016 m2 groot en is door de
-                eigenaar zowel binnen- als buiten keurig onderhouden en met liefde bewoond.
+            De IJweg 1284, het huis waar iedereen die ook maar een beetje bekend is in de buurt wordt genoemd als
+            het witte huis met die mooie serre (uitbouw), staat op een perceel van circa 2016 m2 groot en is door de
+            eigenaar zowel binnen- als buiten keurig onderhouden en met liefde bewoond.
 
-                Het huis zelf is voorzien van twee ruime slaapkamers, een gigantische garage, schuur, prachtig
-                zij-uitbouw (serre), sfeervolle gashaard, parkeerplaatsen op eigen terrein en nog veel meer. De tuin is
-                in alle seizoenen van het jaar werkelijk een plaatje. In de zomer als de Annabelle in bloei staan
-                bijvoorbeeld, of in de herfst met de prachtige herfstkleuren.
+            Het huis zelf is voorzien van twee ruime slaapkamers, een gigantische garage, schuur, prachtig
+            zij-uitbouw (serre), sfeervolle gashaard, parkeerplaatsen op eigen terrein en nog veel meer. De tuin is
+            in alle seizoenen van het jaar werkelijk een plaatje. In de zomer als de Annabelle in bloei staan
+            bijvoorbeeld, of in de herfst met de prachtige herfstkleuren.
 
-                Wij adviseren om ons gewoon te bellen voor een afspraak, want zien is meemaken!
+            Wij adviseren om ons gewoon te bellen voor een afspraak, want zien is meemaken!
 
-                De indeling:
+            De indeling:
 
-                Begane grond:
-                Er zijn twee entrees van de woning. Of je komt gezellig binnen in de keuken, of via de officiële
-                voordeur in de hal met toilet met fonteintje, trapopgang, werkkamer aan de rechterkant met aansluitend
-                berg-/stookruimte met de C.V. opstelling. Aan de andere kant bevindt zich de gezellige woonkeuken met
-                openslaande deuren naar buiten en een deur naar de garage. De keuken is voorzien van diverse
-                inbouwapparatuur en kijkt uit op de achtertuin.
-                De woonkamer is lekker ruim, licht en voorzien van sfeervolle gashaard. Aan de zijkant is er uitgebouwd
-                met een prachtige ronde serrekamer met openslaande deuren naar de tuin. Het is hier echt heerlijk
-                vertoeven, mede door het prachtige uitzicht op de tuin.
-                De begane grond is voorzien van vloerverwarming.
+            Begane grond:
+            Er zijn twee entrees van de woning. Of je komt gezellig binnen in de keuken, of via de officiële
+            voordeur in de hal met toilet met fonteintje, trapopgang, werkkamer aan de rechterkant met aansluitend
+            berg-/stookruimte met de C.V. opstelling. Aan de andere kant bevindt zich de gezellige woonkeuken met
+            openslaande deuren naar buiten en een deur naar de garage. De keuken is voorzien van diverse
+            inbouwapparatuur en kijkt uit op de achtertuin.
+            De woonkamer is lekker ruim, licht en voorzien van sfeervolle gashaard. Aan de zijkant is er uitgebouwd
+            met een prachtige ronde serrekamer met openslaande deuren naar de tuin. Het is hier echt heerlijk
+            vertoeven, mede door het prachtige uitzicht op de tuin.
+            De begane grond is voorzien van vloerverwarming.
 
-                Eerste verdieping:
-                Via de overloop komt je in twee ruime slaapkamers. De badkamer is voorzien van een whirlpool,
-                douchecabine, wastafel met meubel en een toilet. Er is een ruime vliering te bereiken via de vlizotrap.
+            Eerste verdieping:
+            Via de overloop komt je in twee ruime slaapkamers. De badkamer is voorzien van een whirlpool,
+            douchecabine, wastafel met meubel en een toilet. Er is een ruime vliering te bereiken via de vlizotrap.
 
-                Garage:
-                De garage biedt genoeg ruimte voor tenminste twee auto’s. Boven de garage bevindt zich nog een hele
-                ruime vliering. De garage is voorzien van water en elektra, wasmachine- en drogeraansluiting en zowel
-                aan de voor- als achterkant deuren waardoor je als het ware door de garage kan rijden om achter de
-                woning te komen.
+            Garage:
+            De garage biedt genoeg ruimte voor tenminste twee auto’s. Boven de garage bevindt zich nog een hele
+            ruime vliering. De garage is voorzien van water en elektra, wasmachine- en drogeraansluiting en zowel
+            aan de voor- als achterkant deuren waardoor je als het ware door de garage kan rijden om achter de
+            woning te komen.
 
-                Om het huis:
-                In de achtertuin staat nog een voormalige stal nu als bergruimte te gebruiken. De tuin is een plaatje
-                met onder andere blijvend groene planten een lekker zitje in de tuin, maar ook onder de overkapping aan
-                de achterzijde. Aan de voorzijde is er een ruime oprit die de mogelijkheid biedt om meerdere auto’s te
-                parkeren.
+            Om het huis:
+            In de achtertuin staat nog een voormalige stal nu als bergruimte te gebruiken. De tuin is een plaatje
+            met onder andere blijvend groene planten een lekker zitje in de tuin, maar ook onder de overkapping aan
+            de achterzijde. Aan de voorzijde is er een ruime oprit die de mogelijkheid biedt om meerdere auto’s te
+            parkeren.
 
-                De woning in het kort:
-                - Unieke, zeer gewilde locatie
-                - Zeer ruime garage
-                - Prachtige zijuitbouw
-                - Veel bergruimte
-                - Perceel ca. 2016 m2 groot, woonoppervlakte: 154 m2 exclusief garage, berging en vliering
-                - Oplevering: in overleg
-                • Volledige eigendom</span></p>
-    <button onclick="myFunction()" id="myBtn">Lees meer</button>
+            De woning in het kort:
+            - Unieke, zeer gewilde locatie
+            - Zeer ruime garage
+            - Prachtige zijuitbouw
+            - Veel bergruimte
+            - Perceel ca. 2016 m2 groot, woonoppervlakte: 154 m2 exclusief garage, berging en vliering
+            - Oplevering: in overleg
+            • Volledige eigendom
+    </p>
+
+
+    <button id="readMoreBtn" class="btn btn-primary">Lees meer</button>
+    </div>
+
+        <div id="map">
+            <a href="https://www.google.com/maps/place/IJweg+1284,+2133+MJ+Hoofddorp/@52.2987193,4.6436019,143m/data=!3m1!1e3!4m6!3m5!1s0x47c5e8763a42d277:0xd0392a9e0465f4f0!8m2!3d52.2987407!4d4.6434826!16s%2Fg%2F11c1zgzs2x?entry=ttu"
+               target="_blank">
+                <img class="imgs" src="assets/img/villa-map-3.png" alt="">
+            </a>
+        </div>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <div class="container">
+                <p>&copy; 2023 Villa Sales. All rights reserved.</p>
+            </div>
+</div>
+
 </div>
 <div class="bied">
     <h2>Hoogste biedingen</h2>
@@ -211,17 +226,7 @@ include 'assets/php/config3.php';
     </form>
 </div>
 
-<div id="map">
-    <a href="https://www.google.com/maps/place/IJweg+1284,+2133+MJ+Hoofddorp/@52.2987193,4.6436019,143m/data=!3m1!1e3!4m6!3m5!1s0x47c5e8763a42d277:0xd0392a9e0465f4f0!8m2!3d52.2987407!4d4.6434826!16s%2Fg%2F11c1zgzs2x?entry=ttu"
-       target="_blank">
-        <img class="imgs" src="assets/img/villa-map-3.png" alt="">
-    </a>
-</div>
 
-<footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-        <p>&copy; 2023 Villa Sales. All rights reserved.</p>
-    </div>
 
 </footer>
 <script src="assets/js/villa.js"></script>

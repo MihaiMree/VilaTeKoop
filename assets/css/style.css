@@ -1,3 +1,7 @@
+body, html {
+    height: 100%;
+}
+
 .logos {
     position: absolute;
     left: 20vh;
@@ -7,13 +11,22 @@
 .text-box{
     height: 40vh;
     width: 30vw;
-    margin-left:5vw;
+}
+.text-box footer{
+    width: 100%;
+    position: absolute;
+    margin: 0;
+}
+.text-box .alles{
+    margin-left: 5vw;
 }
 #more {
     display: none;
 }
 #map {
+    position: relative;
     margin: 5vw;
+
     width: 30vw;
 }
 #map .imgs {
@@ -22,7 +35,6 @@
 }
 .bied {
     position: absolute;
-    height: 100%;
     width: 40vw;
     left: 50vw;
     top: 79vh;
@@ -30,4 +42,42 @@
 .prijs {
     margin-right:6vw ;
     font-size: x-large;
+}
+.omschr {
+     height: 50%;
+ }
+#content {
+    transition: all 0.3s ease;
+}
+.description {
+    max-height: 100px; /* Adjust the value as per your needs */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.read-more-content {
+    overflow: hidden;
+    height: 120px; /* Adjust the height as needed */
+}
+
+.read-more-show::after {
+    content: 'Read More';
+    color: blue;
+    cursor: pointer;
+}
+
+.read-more-hide::after {
+    content: 'Read Less';
+    color: blue;
+    cursor: pointer;
+}
+.truncated-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Number of lines to show before truncating */
+    -webkit-box-orient: vertical;
+}
+.buiten{
+    font-size:x-small;
+    color: red;
 }

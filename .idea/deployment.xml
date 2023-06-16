@@ -6,7 +6,7 @@
       <paths name="ftp">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/VillaTeKoop" local="$PROJECT_DIR$" web="/VillaTeKoop" />
           </mappings>
         </serverdata>
       </paths>

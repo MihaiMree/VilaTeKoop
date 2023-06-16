@@ -26,6 +26,7 @@ include 'assets/php/config.php';
 </head>
 
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="#">Villa Sales</a>
@@ -36,15 +37,13 @@ include 'assets/php/config.php';
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="homepage.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#villas">Villas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="form.html">Contact</a>
                 </li>
             </ul>
+        </div>
         </div>
     </div>
 </nav>
@@ -53,17 +52,17 @@ include 'assets/php/config.php';
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="display-4 m-50" height="450vw" width="75%" src="assets/img/villa1-1.jpg" alt="First slide">
+            <img class="display-4 m-5" height="650vw" width="95%" src="assets/img/villa1-1.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5 " height="450vw" width="75%" src="assets/img/villa1-2.jpg"
+            <img class="display-4 m-5 " height="650vw" width="95%" src="assets/img/villa1-2.jpg"
                  alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5" height="450vw" width="75%" src="assets/img/villa1-3.jpg" alt="Third slide">
+            <img class="display-4 m-5" height="650vw" width="95%" src="assets/img/villa1-3.jpg" alt="Third slide">
         </div>
         <div class="carousel-item">
-            <img class="display-4 m-5" height="450vw" width="75%" src="assets/img/villa1-4.jpg" alt="Third slide">
+            <img class="display-4 m-5" height="650vw" width="95%" src="assets/img/villa1-4.jpg" alt="Third slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -77,6 +76,7 @@ include 'assets/php/config.php';
 </div>
 
 <div class="text-box">
+    <div class="alles">
     <h1>Hendrikahoeve 3</h1>
     <ul data-gtm-vis-recent-on-screen-1273266_1190="778" data-gtm-vis-first-on-screen-1273266_1190="778"
         data-gtm-vis-total-visible-time-1273266_1190="100" data-gtm-vis-has-fired-1273266_1190="1"
@@ -121,61 +121,77 @@ include 'assets/php/config.php';
 
     </strong>
     <h2>Omschrijving</h2>
-    <p>In de aantrekkelijke wijk Vrijschot-Noord vindt u deze charmante vrijstaande villa. De woning heeft een
-        royale woonoppervlakte van ca. 190 m2 en is voorzien van een dakterras, garage (24 m2!), oprit, 4
-        slaapkamers, 2 badkamers, woonkeuken en een woonkamer met openhaard en twee sfeer verhogende erkers met
-        zicht op de prachtig aangelegde tuin. Het perceel eigen grond is 760 m2.<span id="dots">...</span><span
-            id="more">De woning bevindt zich op een centrale locatie in één van de groenste wijken van Hoofddorp. De
-                omgeving biedt voldoende parkeermogelijkheden. Het centrum van Hoofddorp is op korte afstand bereikbaar,
-                net als diverse openbaar vervoervoorzieningen. Er zijn verschillende (basis-)scholen, sportfaciliteiten
-                zoals hockeyvereniging “De Reigers”, tennisclub “In de Boogaerd”, “Meersquash”, sporthal “Fanny Blankers
-                Koen”, skibaan “Hoofddorp” en meerdere sportscholen.
+    <div>
+        <p id="description" class="truncated-description">In de aantrekkelijke wijk Vrijschot-Noord vindt u deze charmante vrijstaande villa.De woning bevindt zich op een centrale locatie in één van de groenste wijken van Hoofddorp. De
+            omgeving biedt voldoende parkeermogelijkheden. Het centrum van Hoofddorp is op korte afstand bereikbaar,
+            net als diverse openbaar vervoervoorzieningen. Er zijn verschillende (basis-)scholen, sportfaciliteiten
+            zoals hockeyvereniging “De Reigers”, tennisclub “In de Boogaerd”, “Meersquash”, sporthal “Fanny Blankers
+            Koen”, skibaan “Hoofddorp” en meerdere sportscholen.
 
-                Daarnaast bent u binnen een enkel ogenblik op de Geniedijk of in het Haarlemmermeerse bos waar heerlijk
-                gewandeld, gezwommen, gesurft en gegeten kan worden.
+            Daarnaast bent u binnen een enkel ogenblik op de Geniedijk of in het Haarlemmermeerse bos waar heerlijk
+            gewandeld, gezwommen, gesurft en gegeten kan worden.
 
-                Om het geheel compleet te maken ligt deze woning ook perfect ten opzichte van uitvalswegen naar
-                Zandvoort, Schiphol, Haarlem, Amsterdam en Den Haag.
+            Om het geheel compleet te maken ligt deze woning ook perfect ten opzichte van uitvalswegen naar
+            Zandvoort, Schiphol, Haarlem, Amsterdam en Den Haag.
 
-                Indeling:
+            Indeling:
 
-                Begane grond: entree, royale hal, meterkast, toilet met fonteintje en dubbele deuren naar de ruime
-                woonkamer. De woonkamer geeft van alle kanten zicht op de prachtige tuin, is voorzien van een eethoek
-                met erker aan de achterzijde en een zithoek met open haard, openslaande deuren naar de tuin en een erker
-                aan de zijkant van de woning. De woonkeuken biedt voldoende ruimte voor een eettafel voor het hele gezin
-                en de keuken is voorzien van een koelkast, vaatwasser, combi-oven en een zes-pits gasfornuis die is
-                afgewerkt met een afzuigkap. Via de woonkeuken is de enorme garage bereikbaar waar zich de cv-ketel,
-                warmwater boiler en wasmachine/droger aansluitingen bevinden. Middels een elektrische deur is de garage
-                te openen.
+            Begane grond: entree, royale hal, meterkast, toilet met fonteintje en dubbele deuren naar de ruime
+            woonkamer. De woonkamer geeft van alle kanten zicht op de prachtige tuin, is voorzien van een eethoek
+            met erker aan de achterzijde en een zithoek met open haard, openslaande deuren naar de tuin en een erker
+            aan de zijkant van de woning. De woonkeuken biedt voldoende ruimte voor een eettafel voor het hele gezin
+            en de keuken is voorzien van een koelkast, vaatwasser, combi-oven en een zes-pits gasfornuis die is
+            afgewerkt met een afzuigkap. Via de woonkeuken is de enorme garage bereikbaar waar zich de cv-ketel,
+            warmwater boiler en wasmachine/droger aansluitingen bevinden. Middels een elektrische deur is de garage
+            te openen.
 
-                Eerste verdieping: overloop, toegang tot de master bedroom die is voorzien
-                van een inloopkast en aangrenzende badkamer met ligbad, inloopdouche en
-                dubbele wastafel en een deur naar balkon. Tweede slaapkamer met deur naar het
-                grote dakterras (50 m2) en naastgelegen tweede badkamer welke voorzien is van
-                een toilet, wastafel en inloopdouche.
+            Eerste verdieping: overloop, toegang tot de master bedroom die is voorzien
+            van een inloopkast en aangrenzende badkamer met ligbad, inloopdouche en
+            dubbele wastafel en een deur naar balkon. Tweede slaapkamer met deur naar het
+            grote dakterras (50 m2) en naastgelegen tweede badkamer welke voorzien is van
+            een toilet, wastafel en inloopdouche.
 
-                Tweede verdieping: overloop/kamer met dakkapel, deur naar berging en doorloop naar tweede slaapkamer met
-                Velux dakraam en knieschotten.
+            Tweede verdieping: overloop/kamer met dakkapel, deur naar berging en doorloop naar tweede slaapkamer met
+            Velux dakraam en knieschotten.
 
-                De woning is voorzien van een prachtig aangelegde tuin rondom de woning en voorzien van diverse fraaie
-                plantenborders, zonneterras op het zuidoosten en een vijverpartij. Daarnaast kunt u op eigen terrein
-                twee auto’s parkeren en is de garage groot genoeg voor een derde auto.
+            De woning is voorzien van een prachtig aangelegde tuin rondom de woning en voorzien van diverse fraaie
+            plantenborders, zonneterras op het zuidoosten en een vijverpartij. Daarnaast kunt u op eigen terrein
+            twee auto’s parkeren en is de garage groot genoeg voor een derde auto.
 
-                Bijzonderheden:
+            Bijzonderheden:
 
-                • Vrijstaande villa in de aantrekkelijke wijk, Vrijschot-Noord;
+            • Vrijstaande villa in de aantrekkelijke wijk, Vrijschot-Noord;
 
-                • Woonoppervlakte ca. 190 m2 exclusief de garage van 24 m2;
+            • Woonoppervlakte ca. 190 m2 exclusief de garage van 24 m2;
 
-                • Bouwjaar 1994;
+            • Bouwjaar 1994;
 
-                • Verwarming en warmwatervoorziening geschiedt middels een cv-combiketel van het merk “Atag”;
+            • Verwarming en warmwatervoorziening geschiedt middels een cv-combiketel van het merk “Atag”;
 
-                • De begane grond is voorzien van vloerverwarming;
+            • De begane grond is voorzien van vloerverwarming;
 
-                • Energielabel C;</span></p>
-    <button onclick="myFunction()" id="myBtn">Lees meer</button>
+            • Energielabel C;</p>
+        <button id="readMoreBtn" class="btn btn-primary">Lees meer</button>
+    </div>
+    <div id="map">
+        <a href="https://www.google.com/maps/search/Hendrikahoeve+3+2131+MV+Hoofddorp+Hoofddorp+Vrijschot+Noord/@52.3175448,4.6779385,119m/data=!3m1!1e3?entry=ttu"
+           target="_blank">
+            <img class="imgs" src="assets/img/villa-map.png" alt="">
+        </a>
+    </div>
 </div>
+    <footer class="mt-auto bg-dark text-white text-center py-3 pt-2 pb-2">
+
+        <div class="container">
+
+            <p>&copy; 2023 Villa Sales. All rights reserved.</p>
+
+        </div>
+
+</div>
+</div>
+</div>
+
 <div class="bied">
     <h2>Hoogste biedingen</h2>
     <?php
@@ -213,19 +229,8 @@ include 'assets/php/config.php';
     </form>
 
 </div>
-<div id="map">
-    <a href="https://www.google.com/maps/search/Hendrikahoeve+3+2131+MV+Hoofddorp+Hoofddorp+Vrijschot+Noord/@52.3175448,4.6779385,119m/data=!3m1!1e3?entry=ttu"
-       target="_blank">
-        <img class="imgs" src="assets/img/villa-map.png" alt="">
-    </a>
-</div>
 
-<footer class="bg-dark text-white text-center py-3">
-    <div class="container">
-        <p>&copy; 2023 Villa Sales. All rights reserved.</p>
-    </div>
 
-</footer>
 <script src="assets/js/villa.js"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaJS_uxy_F3TqBUrjo7P0_2UHCue4qYGs&callback=initMap"
