@@ -2,7 +2,7 @@
 
 $servername = "localhost"; // Replace with your server name
 $username = "mihai"; // Replace with your MySQL username
-$password = "2Fp0bb58*"; // Replace with your MySQL password
+$password = "yxt23V9_4"; // Replace with your MySQL password
 $dbname = "ftp89621"; // Replace with your MySQL database name
 
 try {
